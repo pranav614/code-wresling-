@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning.com</title>
+    <style>
+        
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="input.css">
+<body>
+
+    <div class="form-container">
+        <div class="middle">
+            <h2>Sign in</h2>
+       
+        <form id="formDiv">
+            <div class="formSubDiv nameField">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="inputField" name="name">
+                <div id="errorName"></div>
+            </div>
+            <div class="formSubDiv">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="inputField" name="email">
+                <div id="errorEmail"></div>
+            </div>
+            <div class="formSubDiv">
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="inputField" name="password">
+                <div id="errorPassword"></div>
+            </div>
+            <p>Forget Password <a href="#">Click Here</a></p>
+            
+            <div class="formSubDiv buttons">
+                <a href="#" class="signup-button">Sign in</a>
+            </div>
+        </form>
+        </div>   
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="input.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaC6lsb7gI1OgMPdpNSVkvSS73H1rFaR-552x8V7NECjUywU5sflINwK9LQea-ss69g2Yoa6jSbaQL4OupS_R5doxl1izA=w2880-h1430");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#errorPassword, #errorName,#errorEmail{
+    color:red;
+    font-family: poppins;
+    font-size: 13px;
+    margin-left:3px;
+}
+
+.formSubDiv {
+    margin-bottom: 20px;
+}
+
+.formSubDiv label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formSubDiv input,
+.formSubDiv textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formSubDiv textarea {
+    height: 100px;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: #45a049;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning.com</title>
+</head>
+<link rel="stylesheet" href="dash.css">
+<body>
+    <nav>
+        <h1>Learning.com</h1>
+        <div id="nameDisplay"></div>
+    </nav>
+
+    <div class="navbar">
+        <a href="#" onclick="showProgress('tutoring')" class="main-course"><h4>Online Tutoring Services</h4></a>
+        <button id="totalProgressBtn" "><a href="dashboard.html">Total Progress</a></button>
+    </div>
+
+    <div class="content">
+        <h2>Progress</h2>
+        <div id="progress" class="progress-bar">
+            <div id="progress-indicator" class="progress"></div>
+        </div>
+    </div>
+    <h2 class="note">Click on checkbox after Completion</h2>
+    <div class="video-container">
+        <div class="video-container" id="tutoringVideos">
+            <div>
+                <div> Online Tutoring Services Video 1</div>
+                <input type="checkbox">
+            </div>
+        </div>
+        
+        <div class="video-container" id="languageVideos">
+            <div>
+                <div>Online Tutoring Services Video 2</div>
+                <input type="checkbox">
+            </div>
+        </div>
+        
+        <div class="video-container" id="workshopsVideos">
+            <div>
+                <div>Online Tutoring Services Video 3</div>
+                <input type="checkbox">
+            </div>
+        </div>
+        
+        <div class="video-container" id="codingVideos">
+            <div>
+                <div>Online Tutoring Services Video 4</div>
+                <input type="checkbox">
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+</body>
+<script src="dash.js"></script>
+</html>
